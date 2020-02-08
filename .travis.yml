@@ -1,4 +1,3 @@
-dist: xenial
 language: java
 jdk:
  -openjdk8
@@ -8,4 +7,5 @@ addons:
         - ant
 
 script: 
+     ant test
      ant build
